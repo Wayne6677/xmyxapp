@@ -1,0 +1,58 @@
+.hidediv{
+	display: none;
+}
+.xiaotu{
+	margin-top: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	width: 100%;
+	li{width:24%;
+		img{width:70px}
+    }
+	p{
+	font-size: 1rem;
+	font-weight:bold;
+	color: #444;
+	}
+}
+.ltitle{
+	color: #aaa;
+	font-size: 1.1rem;
+	margin-top: 87px;
+}
+.ltitle1{
+	margin-top: 25px;
+	color: #aaa;
+	font-size: 1.1rem;
+	
+}
+.down1{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color: #555;
+	li{
+	width: 48%;
+	height: 50%;
+	font-size: 1.1rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	.baodi3{height: 15px;}
+	.baodi2{float: right;}
+	.baodi1{
+	background: #f22;
+	border-radius: 6px;
+	color: #fff;
+	float: left;
+	}
+
+	img{height: 192px;}
+    }
+}
+
+.count5{
+	color: red;
+}
